@@ -1,0 +1,27 @@
+{
+  "name": "didoka-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node src/crawler_tester.js",
+    "export:dd": "node src/main.js",
+    "export:dd:trendyol": "node src/trendyol_exporter.js",
+    "change:seo": "node src/wcc_script_seo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@162.55.50.8/rasoolbousaidi/didoka-crawler-export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": ">=4.13.0",
+    "morgan": "^1.10.0",
+    "nodeenv": "^3.0.75",
+    "object-hash": "^3.0.0",
+    "process": ">=0.11.10",
+    "request": ">=2.88.2",
+    "winston": "^3.8.2"
+  }
+}
